@@ -1,0 +1,96 @@
+//Polygon      
+{
+    dot = x:1, y:0, z:0, X:0, Y:0
+    dot = x:1, y:1, z:0, X:0, Y:1
+    dot = x:1, y:0, z:1, X:1, Y:1
+    texture = Brique.xpm
+}
+
+Object
+{
+    type = enemi
+    pos = x:0, y:0, z:0
+    rot = x:4, y:5, z:6
+    file = creeper.obj
+}
+
+Polygon      
+{
+    dot = x:10, y:0, z:4, X:0, Y:0
+    dot = x:10, y:0, z:0, X:0, Y:1
+    dot = x:10, y:6, z:0, X:1, Y:1
+    texture = Brique.xpm
+}
+
+Polygon            //plafond 1
+{
+    dot = x:10, y:0, z:4, X:0, Y:0
+    dot = x:10, y:6, z:4, X:0, Y:1
+    dot = x:5, y:0, z:4, X:1, Y:0
+    texture = t4.xpm
+}
+
+Polygon           
+{
+    dot = x:100, y:6, z:5, X:0, Y:1
+    dot = x:50, y:6, z:0, X:1, Y:1
+    dot = x:50, y:0, z:0, X:1, Y:0
+    texture = t4.xpm
+}
+
+
+
+Polygon           //Mur droite
+{
+    dot = x:10, y:6, z:4, X:0, Y:0
+    dot = x:5, y:6, z:4, X:1, Y:0
+    dot = x:5, y:6, z:0, X:1, Y:1
+    texture = t3.xpm
+}
+
+Polygon
+{
+    dot = x:10, y:6, z:4, X:0, Y:0
+    dot = x:10, y:6, z:0, X:0, Y:1
+    dot = x:5, y:6, z:0, X:1, Y:1
+    texture = t3.xpm
+}
+
+
+Polygon                           //Mur fond 1
+{
+    dot = x:20, y:0, z:4, X:0, Y:0
+    dot = x:20, y:6, z:0, X:1, Y:1
+    dot = x:20, y:6, z:4, X:1, Y:0
+    texture = Brique.xpm
+}
+
+Polygon           //Mur gauche
+{
+    dot = x:10, y:0, z:4, X:0, Y:0
+    dot = x:10, y:6, z:0, X:0, Y:1
+    dot = x:10, y:6, z:4, X:1, Y:0
+    texture = t4.xpm
+}
+Polygon
+{
+    dot = x:10, y:0, z:4, X:0, Y:1
+    dot = x:10, y:0, z:0, X:1, Y:0
+    dot = x:5, y:0, z:0, X:1, Y:1
+    texture = t4.xpm
+}
+
+Polygon     //Mur entier 1
+{
+    dot = x:-10, y:10, z:10, X:4, Y:5
+    dot = x:-10, y:-10, z:10, X:9, Y:2
+    dot = x:-10, y:10, z:-10, X:8, Y:3
+    texture = Brique.xpm
+}
+Polygon   //Mur entier 1
+{
+    dot = x:-10, y:-10, z:-10, X:4, Y:5
+    dot = x:-10, y:-10, z:10, X:9, Y:2
+    dot = x:-10, y:10, z:-10, X:8, Y:3
+    texture = Brique.xpm
+}

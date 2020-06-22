@@ -1,0 +1,9 @@
+Polygon                           //Mur fond 1
+{
+    dot = x:5, y:-3, z:2, X:0, Y:0
+    dot = x:5, y:3, z:-2, X:1, Y:1
+    dot = x:5, y:3, z:2, X:1, Y:0
+    texture = Brique.xpm
+}
+
+
